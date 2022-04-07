@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body{
+    scroll-behavior: smooth;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover{
+    background-color: rgb(248, 255, 255);
+    color: #333;
+    transition: 0.3s;
+  }
+  .heading{
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 50px;
+    
+
+  }
+  .image
+  {
+      padding-left: 380px;
+  }
+   .line{
+       height: 5px;
+       width: 200px;
+       background-color: black;
+       margin-left: 860px;
+       align-items: center;
+   }
+   .ourit
+   {
+       text-align: center;
+   }
+   .logo{
+       margin-left:400px;
+       width: 250px;
+       height: 100px;
+   }
+   p{
+       text-align: center;
+       font-weight: bold;
+       font-family: 'Permanent Marker', cursive;
+       font-size: 30px;
+       background-color: aquamarine;
+   }
+   .logo1{
+       border-radius: 200px;
+       width: 180px;
+       height: 250px;
+       align-items: center;
+   }
+   .contactus{
+       font-size: 40px;
+       font-family: 'Bebas Neue', cursive;
+   }
